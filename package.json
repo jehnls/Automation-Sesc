@@ -1,0 +1,21 @@
+{
+  "name": "agendar-sesc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./agendarSescv1",
+    "dev": "node ./agendarSesc",
+    "cron": "node ./testcron.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cron": "^2.0.0",
+    "dotenv": "^16.0.3",
+    "puppeteer": "^13.7.0",
+    "puppeteer-core": "^13.7.0"
+  }
+}
